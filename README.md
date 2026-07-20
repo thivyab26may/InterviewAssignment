@@ -28,13 +28,35 @@ This project contains Playwright end-to-end tests for validating application det
 1. Test data for users is under json file ( users_application.json )
 2. The applications owned by the user are mentioned in the json file ( users_permits.json )
 
-3. I have added the locators in all the pages based on my assumption.
+## Test Cases
 
-## Test Data 
+Test Case1 :
+validateMyApplications.spec.ts -- This test validates that the My Applications page correctly displays application details for a logged‑in user.
 
-1. Test data for users is under json file ( users_application.json )
-2. The applications owned by the user are mentioned in the json file ( users_permits.json )
+The test ensures:
 
+The user logs in with valid credentials
+
+Navigates to My Applications
+
+All displayed applications belong to the logged‑in user
+
+Every application field matches the expected data from users_applications.json
+
+The user is logged out after validation
+
+Test Case 2:
+validateApplicationDetails.spec.ts -- This test validates if Application details of the logged-in user (status, reference number, application number, permit type, address, date, owner and actions) match expected data. 
+
+This test ensures:
+
+The user logs in successfully
+
+Navigates to My Applications
+
+Every application displayed on the UI matches the expected values stored in your JSON file
+
+The user logs out
 
 ## Run tests
 
