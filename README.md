@@ -10,6 +10,11 @@ This project contains Playwright end-to-end tests for validating application det
 - `playwright.config.ts` - Playwright configuration
 
 ## Assumptions
+Test URL: https://www.test
+Test data is retrieved from json file
+Test data for users in 1 json file
+Test data for application details in 2nd json file.
+
 
 
 ## Run tests
