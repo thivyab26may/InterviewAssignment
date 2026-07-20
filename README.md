@@ -1,6 +1,6 @@
 # Interview Assignment
 
-This project contains Playwright end-to-end tests for validating application details and my applications behavior.
+This project contains Playwright end-to-end tests for validating application details and the applications belonging to logged in users.
 
 ## Structure
 
