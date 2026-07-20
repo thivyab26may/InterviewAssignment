@@ -15,9 +15,11 @@ This project contains Playwright end-to-end tests for validating application det
 2. Business Rule Assumption for Validation:  
 **To validate the test case “Applications belonging to the logged‑in user are displayed correctly”, the following ownership mapping is assumed:**
 
-User1 owns only Electrical Permit and Plumbing Permit applications.
-User2 owns only Building Permit applications.
-User3 owns only Gas Permit applications.
+   User1 owns only Electrical Permit and Plumbing Permit applications.
+
+   User2 owns only Building Permit applications.
+
+   User3 owns only Gas Permit applications.
 
 3. I have added the locators in all the pages based on my assumption.
 
