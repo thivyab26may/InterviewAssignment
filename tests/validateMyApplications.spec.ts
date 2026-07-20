@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../pages/login.page';
-import { MyApplicationsPage } from '../pages/myApplications.page';
-import { LogOutPage } from '../pages/logout.page';
+import { LoginPage } from '../pages/login.page.js';
+import { MyApplicationsPage } from '../pages/myApplications.page.js';
+import { LogOutPage } from '../pages/logout.page.js';
 import testData from '../test-data/users_applications.json';
 import  permitData  from '../test-data/users_permits.json';
 

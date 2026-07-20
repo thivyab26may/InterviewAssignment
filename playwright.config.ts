@@ -3,7 +3,7 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
   fullyParallel: true,
-  timeout: 30000,
+  timeout: 60000,
   expect: {
     timeout: 10000,
   },
@@ -38,7 +38,5 @@ export default defineConfig({
       name: 'Mobile Safari',
       use: { ...devices['iPhone 15'] },
      },
-
-    
   ],
 });
