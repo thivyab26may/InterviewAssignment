@@ -36,7 +36,7 @@ test('Application details match expected data', async ({ page }) => {
     expect(actualApplicationDetails.permitType).toBe(expectedApplicationDetails.permitType);
     expect(actualApplicationDetails.address).toBe(expectedApplicationDetails.address);
     expect(actualApplicationDetails.date).toBe(expectedApplicationDetails.date);
-    expect(actualApplicationDetails.owner.trim()).toBe(expectedApplicationDetails.owner);
+    expect(actualApplicationDetails.owner.trim).toBe(expectedApplicationDetails.owner);
     expect(actualApplicationDetails.action).toBe(expectedApplicationDetails.action); 
   }
  
