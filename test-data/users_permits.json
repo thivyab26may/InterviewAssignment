@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "username": "user1@test.com",
+      "password": "user1",
+      "allowedPermitTypes": ["Electrical Permit", "Plumbing Permit"]
+    },
+    {
+      "username": "user2@test.com",
+      "password": "user2",
+      "allowedPermitTypes": ["Building"]
+    },
+    {
+      "username": "user3@test.com",
+      "password": "user3",
+      "allowedPermitTypes": ["Gas"]
+    }
+  ]
+}

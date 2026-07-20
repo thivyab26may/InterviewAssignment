@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "username": "user1@test.com",
+      "password": "user1",
+      "applications": [
+        {
+          "status": "Action Required",
+          "referenceNumber": "E20001779",
+          "applicationNumber": "E2025-0789",
+          "permitType": "Electrical Permit",
+          "address": "1234 Win St",
+          "date": "2025-11-19",
+          "owner": "Robert",
+          "action": "Upload Required"
+        },
+        {
+          "status": "In Review",
+          "referenceNumber": "P20001780",
+          "applicationNumber": "P2025-0790",
+          "permitType": "Plumbing",
+          "address": "12345 Win St",
+          "date": "2025-11-20",
+          "owner": "Micheal",
+          "action": "Under Review"
+        }
+      ]
+    },
+    {
+      "username": "user2@test.com",
+      "password": "user2",
+      "applications": [
+        {
+          "status": "Unpaid",
+          "referenceNumber": "B20001781",
+          "applicationNumber": "B2025-0791",
+          "permitType": "Building",
+          "address": "123456 Win St",
+          "date": "2025-11-21",
+          "owner": "Jane",
+          "action": "Pay Invoice"
+        }
+      ]
+    },
+    {
+      
+      "username": "user3@test.com",
+      "password": "user3",
+      "applications": [
+        {
+          "status": "Draft",
+          "referenceNumber": "G20001782",
+          "applicationNumber": "G2025-0792",
+          "permitType": "Gas",
+          "address": "1234567 Win St",
+          "date": "2025-11-22",
+          "owner": "John",
+           "action": "Continue Application"
+        }
+      ]
+    }
+  ]
+}
