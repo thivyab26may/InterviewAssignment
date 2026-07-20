@@ -4,9 +4,9 @@ This project contains Playwright end-to-end tests for validating application det
 
 ## Structure
 
-- `tests/` - Playwright test specs
+- `tests/` - Playwright test cases
 - `pages/` - Page Object Model classes
-- `test-data/` - JSON test data for users and permits
+- `test-data/` - JSON test data for users
 - `playwright.config.ts` - Playwright configuration
 
 ## Assumptions
@@ -58,6 +58,36 @@ Every application displayed on the UI matches the expected values stored in your
 
 The user logs out
 
+## Configuration: ##
+
+**I have added the below Configurations in the "playwright.config.ts" file**
+
+1. Playwright will run tests in parallel.
+
+2. Each test has a maximum execution time of 1 minute.
+If a test exceeds this, Playwright stops it and marks it as failed.
+
+3. All the Assertions have a 10‑second timeout.
+This allows Playwright to wait for UI elements to appear or update before failing.
+
+4. HTML report is generated after each run.
+
+5. If a test fails, Playwright will retry it up to 2 times.
+
+6. Screenshots will be captured only when a test fails.
+
+7. The test cases will run on below browsers / mobile devices for compatibility testing,
+
+Google Chrome
+
+Mozilla Firefox
+
+Safari (WebKit)
+
+Pixel 5 (Android Chrome)
+
+iPhone 15 (iOS Safari)
+   
 ## Run tests
 
 **Run the test suite:**
