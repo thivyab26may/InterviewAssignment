@@ -68,7 +68,7 @@ The user logs out
 If a test exceeds this, Playwright stops it and marks it as failed.
 
 3. All the Assertions have a 10‑second timeout.
-This allows Playwright to wait for UI elements to appear or update before failing.
+This allows Playwright to wait for UI elements to appear before failing.
 
 4. HTML report is generated after each run.
 
