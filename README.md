@@ -54,7 +54,7 @@ The user logs in successfully
 
 Navigates to My Applications
 
-Every application displayed on the UI matches the expected values stored in your JSON file
+Every application displayed on the UI matches the expected values stored in JSON file
 
 The user logs out
 
