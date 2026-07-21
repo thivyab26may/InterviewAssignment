@@ -39,9 +39,7 @@ The user logs in with valid credentials
 
 Navigates to My Applications
 
-All displayed applications belong to the logged‑in user
-
-Every application field matches the expected data from users_applications.json
+All displayed applications belong to the logged‑in user from users_applications.json
 
 The user is logged out after validation
 
