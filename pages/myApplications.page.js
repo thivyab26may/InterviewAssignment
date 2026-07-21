@@ -16,7 +16,7 @@ export class MyApplicationsPage {
 
   // This function returns all application rows displayed on the grid.
   async getApplications() {
-    return this.page.$(this.applicationGrid);
+    return this.page.$$(this.applicationGrid);
   }
 
   // This function retrieves the details of a specific application row from the grid and returns an object containing the details.
